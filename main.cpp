@@ -1,8 +1,8 @@
 #include <iostream> 
-#include "hardware/hwinfo.h"
+#include "hwinfo/hwinfo.h"
 
 int main() { 
-  hardware::CPU cpu;
+  hwinfo::CPU cpu;
 	std::cout << "Welcome To BalckBird 1.0-beta" << std::endl;
 
   std::cout << cpu.vendor() << std::endl;
