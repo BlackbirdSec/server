@@ -10,11 +10,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
 # subdirectories
-add_subdirectory(utils/scan/hardware)
-include_directories(utils/scan/hardware/include)
+add_subdirectory(hwinfo)
+include_directories(hwinfo/include)
 
 # main
 add_executable(blackbird main.cpp)
 # link to libs
-target_link_libraries(blackbird PUBLIC hardware::HWinfo)
+target_link_libraries(blackbird PUBLIC hwinfo::HWinfo)
 
