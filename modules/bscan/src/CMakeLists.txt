@@ -5,4 +5,4 @@ add_library(BScan
         swares/operation_system.cpp
         )
 
-add_library(${PROJECT_NAME}::BScan ALIAS BScan)
+add_library(bscan::BScan ALIAS BScan)
