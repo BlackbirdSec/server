@@ -1,6 +1,6 @@
 #include <iostream> 
 #include "hwinfo/hwinfo.h"
-#include "hwares/computer.h"
+#include "hwares/hwares.h"
 
 int main() { 
   hwinfo::CPU cpu;

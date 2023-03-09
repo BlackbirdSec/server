@@ -11,7 +11,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3")
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG}")
 
 
-include_directories(${PROJECT_SOURCE_DIR}/bscan/include/)
+include_directories(${PROJECT_SOURCE_DIR}/include/)
 
 add_subdirectory(src)
 
