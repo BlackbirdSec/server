@@ -10,14 +10,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
 # subdirectories
-add_subdirectory(hwinfo
-    modules/bscan
-  )
+add_subdirectory(hwinfo bscan)
 
 # includes
 include_directories(
   hwinfo/include
-  modules/bscan/include
+  bscan/include
   )
 
 # main
