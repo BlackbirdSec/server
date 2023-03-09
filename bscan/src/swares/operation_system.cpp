@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include "device.h"
 #include "hwinfo/hwinfo.h"
 // #include "bscan/swares/operation_system.h"
 
