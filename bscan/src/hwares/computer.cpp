@@ -6,10 +6,10 @@
 namespace bscan {
 
   std::string& COMPUTER::cpu() {
-    if (_cpu.empty()) {
-      _cpu = std::move(getCPU());
-    }
+    
+     _cpu = std::string("CPU info test");
+    
     return _cpu;
   };
-  
+
 }
