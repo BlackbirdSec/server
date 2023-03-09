@@ -10,7 +10,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
 # subdirectories
-add_subdirectory(hwinfo bscan)
+foreach(dir IN ITEMS hwinfo bscan)
+  add_subdirectory(${dir})
+endforeach()
+
 
 # includes
 include_directories(
