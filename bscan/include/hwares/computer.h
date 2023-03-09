@@ -17,7 +17,7 @@ namespace bscan {
       std::string _cpu;
       
 
-  }
+  };
 }
 
 // std::string getCPU();
