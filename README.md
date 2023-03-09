@@ -9,3 +9,17 @@ cmake CMakeLists.txt
 ```
 
 Now, you can run `make all` or `make blackbird` to build project.
+
+## Exec programm:
+
+### **On Linux**
+
+```sh
+./blackbird
+```
+
+### **On Windows**
+
+```sh
+./blackbird.exe
+```
